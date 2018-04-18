@@ -1,0 +1,15 @@
+@charset "UTF-8";
+#click h3{
+   	font-size: 13pt;
+    color: #7401DF;
+    padding: 1%;
+}
+iframe#frame-spec1 {
+	width: 45%;
+	height: 750px;
+	border: none;
+	overflow:hidden;
+}
+iframe#frame-spec1::-webkit-scrollbar {
+	display: none; 
+}

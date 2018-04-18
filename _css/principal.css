@@ -1,0 +1,193 @@
+@font-face{
+	font-family: 'FonteTeste';
+	src:url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #7401DF;
+	color:#000000; 
+	padding: 0% 2% 0% 2%;
+}
+p {
+	text-align: justify;
+	text-indent: 5%;
+}
+div#interface{
+	background-color:#fff;
+	margin: 0% 4% 0% 4%;
+	padding: 1%; 
+	box-shadow: 0px 0px 25px rgba(0,0,0,.8);
+}
+header#cabecalho{
+	border-bottom: 2px #7401DF solid;
+	height: 10%;
+}
+header#cabecalho img#icone {
+	position: absolute;
+	left: 86%; 
+	top: 11%; 
+}	
+header#cabecalho h1{
+	margin-bottom: 1%;
+}
+header#noticia h2{
+	font-size: 12pt;
+	color:#606060;
+	background-color: #ddd;
+	padding: 5px 0px 5px 10px;
+	margin: 5px 0px 5px 10px;
+}
+nav#menu ul{
+	text-transform: uppercase; 
+	position: absolute; 
+	top: -0.2%;
+	left: 32%;
+	list-style: none;
+	float: right; 
+	padding-left: 8%; 
+	margin: 2.4%; 
+	font-weight: bold;
+	font-size: 100%;
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #D0A9F5; 
+	padding: 10px; 
+}
+nav#menu li:hover{
+	background-color: #9A2EFE;
+	transition: background 1s;
+	color: #fff;
+}
+nav#menu a{
+	color: #000; 
+	text-decoration: none;
+}
+article#noticia h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}article#noticia h2{
+	font-size: 12pt;
+	color:#606060;
+	background-color: #D0A9F5;
+	padding: 5px 0px 5px 10px;
+	margin: 5px 0px 5px 10px;
+}
+article#noticia h3{
+	font-size: 9pt;
+	color: #606060;
+}
+section#corpo {
+	display: block;
+	width: 47%;
+	float: left; 
+	border-right: 1px solid #7401DF; 
+	padding-right: 1.5%;
+}
+article#noticia-principal h2 {
+	font-size: 12 pt;
+	color: red;
+	background-color: black;
+	padding: 5px 0px 5px 10px; 
+	margin: 10px 0px 10px 20px;
+}
+header#cabecalho-artigo h1 {
+	font-family: 'fontelogo',sans-serif; 
+	font-size: 20pt;
+	color:#606060;
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+}
+.direita {
+	text-align: right; 
+}
+header#cabecalho-artigo h2 {
+	font-size: 13pt; 
+	color:#606060; 
+	background-color: #D0A9F5; 
+	margin: 0px 
+}
+header#cabecalho-artigo h3 {
+	font-size: 12px; 
+	color: #606060; 
+}
+
+#tabela{
+	border: 0.1% solid #606060;
+	margin-left: 14%;
+	}
+#tabela td {
+	border: 1px solid #606060;
+	padding: 2%;
+	vertical-align: top; 
+}
+.cd {
+	background-color: #fff;
+}
+#tabela .ce{
+	color: #fff;
+	background-color:#6E6E6E;	
+	vertical-align: top;
+	font-weight: bold;
+	text-align: right;
+}
+.aa {
+	background-color: #fff;
+}
+#tabela .bb{
+	color: #fff;
+	background-color:#585858;	
+	vertical-align: top;
+	font-weight: bold;
+	text-align: right;
+}
+aside#lateral {
+	display: block;
+	width: 47%;
+	float: right;
+	background-color: #D0A9F5; 
+	padding: 1.7%;
+	margin-top: 1%; 
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+aside#lateral h2 {
+	background-color: white;
+	color: black;
+	font-size: 1.3em; 
+	padding: 1%; 
+}
+footer#rodape {
+	clear: both; 
+	border-top: 2px solid #7401DF; 
+}
+footer#rodape p {
+	text-align: center; 
+}
+
+#figura2{
+	margin-left: 10%
+}
+
+#figura1{
+	margin-left: 10%
+}
+
+#ana{
+	margin-left: 42%;
+}
+#gui{
+	margin-left: 52%;
+	margin-top: -9.0%;
+}
+
+#imagemdesign{
+	margin-right:20%;
+}
+
+#imagemcores{
+	margin-left: 5%;
+}

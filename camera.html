@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Huawei P20 Pro</title>
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="_css/principal.css"/>
+        <link rel="stylesheet" type="text/css" href="_css/camera.css"/>
+    </head>
+    <script language="JavaScript" src="_javascript/funcoes.js"></script>
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <hgroup>
+                <h1><img id="titulo" src="_imagens\huawei-p20topo.jpg"/></h1>
+                <h2>Bem-vindo ao Huawei</h2>
+                </hgroup>
+                <img id="icone" src="_imagens/camera.png"/>
+                <nav id="menu">
+                    <ul type="disc">
+                        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/camera.png')"><a href="inicial.html">Home</a></li>
+                        <li onmouseover="mudaFoto('_imagens/specs.png')" onmouseout="mudaFoto('_imagens/camera.png')"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('_imagens/camera.png')" onmouseout="mudaFoto('_imagens/camera.png')"><a href="camera.html">Câmera</a></li>
+                        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/camera.png')"><a href="multimidia.html">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/camera.png')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/camera.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    </ul>
+                </nav> 
+            </header>
+            <article id="click">
+            	<p>Em parceria com a marca alemã <a href="https://en.leica-camera.com/">Leica</a>, a empresa chinesa Huawei traz ao mercado o Huawei P20 Pro. Com uma pontuação de 109 no teste da DxOMark, contra 99 e 98, respectivamento do Galaxy S9+ e Pixel 2, o P20 Pro está se destacando como o smartphone com a melhor camêra do momento. Para conhecer um pouco mais sobre o motivo desse desempenho, clique nas câmeras abaixo.</p>
+                <section id="conteudo">
+                    <img src="_imagens/camera2.jpg" usemap="#meumapa" class="imgesquema"/>
+				        <map name="meumapa">
+                            <area shape="circle" coords="140,57,13" href="huawei1.html#cameratraseira1" target="janela"/>
+                            <area shape="circle" coords="142,106,13" href="huawei1.html#cameratraseira2" target="janela"/>
+                            <area shape="circle" coords="141,152,13" href="huawei1.html#cameratraseira3" target="janela"/>
+				        </map> 
+				    <iframe src="huawei1.html" name="janela" id="frame-spec1"></iframe>
+                </section>
+            </article>
+            <footer id="rodape">
+                <p>Copyright 2018 - by Ana Laura e Guilherme<br/>
+                <a href="https://www.facebook.com/Huawei" target="_blank"><img src="_imagens/facebook.png"></a>
+                <a href="http://www.huawei.com/br/" target="_blank"><img src="_imagens/casa.png"></a>
+                <a href="https://www.youtube.com/Huawei" target="_blank"><img src="_imagens/youtube.png"></a>
+                <a href="https://twitter.com/Huawei" target="_blank"><img src="_imagens/twitter.png"></a>
+                 <figure id="ana">
+                <a href="https://github.com/anadiniz" target="_blank"><img src="_imagens/github.png" ></a>
+                    <figcaption>Ana Laura</figcaption>
+                </figure>
+                <figure id="gui">
+                <a href="https://github.com/guirodriguess" target="_blank"><img src="_imagens/github.png"></a>
+                    <figcaption>Guilherme</figcaption>
+                </figure>
+            </footer>
+        </div>
+    </body>
+</html> 

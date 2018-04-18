@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #midia{
+                width: 900px;
+                height: 580px;
+                margin: auto;
+                background:url("_imagens/video-mini04.jpg") no-repeat;
+            }
+            #filme{
+                display: block;
+                position: relative;
+                left: 86px;
+                top: 13px;
+                width: 481px;
+                height: 272px;
+            }
+            #musica {
+                display: block;
+                position: relative;
+                left: 660px;
+                top: 410px;
+                width: 200px;
+            }
+        </style>
+        <title>Huawei P20 Pro</title>
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="_css/principal.css"/>
+    </head>
+    <script language="JavaScript" src="_javascript/funcoes.js"></script>
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <hgroup>
+                <h1><img id="titulo" src="_imagens\huawei-p20topo.jpg"/></h1>
+                <h2>Bem-vindo ao Huawei</h2>
+                </hgroup>
+                 <img id="icone" src="_imagens/multimidia.png"/>
+                <nav id="menu">
+                    <ul type="disc">
+                        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="inicial.html">Home</a></li>
+                        <li onmouseover="mudaFoto('_imagens/specs.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('_imagens/camera.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="camera.html">Câmera</a></li>
+                        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    </ul>
+                </nav> 
+            </header>
+            <section>
+                <div id="midia">
+                    <audio id="musica" controls>
+                        <source src="_midia/audio.mp3" type="audio/mpeg"/>
+                    </audio>
+                    <video id="filme" controls poster="_imagens/S">
+                        <source src="_midia/video.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+            </section>
+			
+			<footer id="rodape">
+                <p>Copyright 2018 - by Ana Laura e Guilherme Rodrigues<br/>
+                <a href="https://www.facebook.com/Huawei" target="_blank"><img src="_imagens/facebook.png"></a>
+                <a href="http://www.huawei.com/br/" target="_blank"><img src="_imagens/casa.png"></a>
+                <a href="https://www.youtube.com/Huawei" target="_blank"><img src="_imagens/youtube.png"></a>
+                <a href="https://twitter.com/Huawei" target="_blank"><img src="_imagens/twitter.png"></a>
+                 <figure id="ana">
+                <a href="https://github.com/anadiniz" target="_blank"><img src="_imagens/github.png" ></a>
+                    <figcaption>Ana Laura</figcaption>
+                </figure>
+                <figure id="gui">
+                <a href="https://github.com/guirodriguess" target="_blank"><img src="_imagens/github.png"></a>
+                    <figcaption>Guilherme</figcaption>
+                </figure>
+            </footer>
+        </div>
+    </body>
+</html> 	
